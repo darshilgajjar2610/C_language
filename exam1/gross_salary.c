@@ -14,10 +14,9 @@ int main()
     printf("Enter TA persentage: ");
     scanf("%f",&ta1);
 
-
-    hra = hra1 * bs / bs;
-    da = da1 *bs / bs;
-    ta = ta1 *bs / bs;
+    hra = bs * hra1 / 100;
+    da = bs * da1 / 100;
+    ta = bs * ta1 / 100 ;
     gross_salary = bs + hra + da + ta;
 
 
